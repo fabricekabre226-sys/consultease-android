@@ -9,6 +9,8 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
+private val Color_White = androidx.compose.ui.graphics.Color(0xFFFFFFFF)
+
 private val ConsultEaseColorScheme = lightColorScheme(
     primary = Primary,
     onPrimary = Color_White,
@@ -28,8 +30,6 @@ private val ConsultEaseColorScheme = lightColorScheme(
     errorContainer = DangerTint,
     outline = Border
 )
-
-private val Color_White = androidx.compose.ui.graphics.Color(0xFFFFFFFF)
 
 val ConsultEaseTypography = Typography(
     headlineMedium = TextStyle(fontWeight = FontWeight.SemiBold, fontSize = 26.sp),
